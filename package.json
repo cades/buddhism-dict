@@ -1,0 +1,8 @@
+{
+  "name": "yushu-crawler",
+  "dependencies": {
+    "request": "*",
+    "cheerio": "*",
+    "lazy.js": "*"
+  }
+}
