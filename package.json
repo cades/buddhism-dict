@@ -3,6 +3,8 @@
   "dependencies": {
     "request": "*",
     "cheerio": "*",
-    "lazy.js": "*"
+    "lazy.js": "*",
+    "q": "*",
+    "merge": "*"
   }
 }
