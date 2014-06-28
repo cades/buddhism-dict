@@ -9,10 +9,10 @@ yushu-crawler
 
 請先確認有安裝[nodejs](http://nodejs.org/).
 
-`
+```
 npm install
 node crawler.js
-`
+```
 
 等到 script 跑完, 所有資料就會放在 pages/ 目錄下.
 
