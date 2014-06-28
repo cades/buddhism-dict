@@ -26,6 +26,9 @@ function downloadPage(pageNum) {
   });
 }
 
+// 建立 ./pages 目錄
+fs.mkdir('./pages');
+
 // 從第 1 頁抓到 1716 頁
 Lazy.range(1716).map(inc).toArray().map(downloadPage);
 
