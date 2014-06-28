@@ -1,5 +1,9 @@
 .DS_Store
 node_modules/
+!gen/
+!gen/.gitkeep
+gen/*
+
 !gen/pages/
-gen/pages/*
 !gen/pages/.gitkeep
+gen/pages/*
