@@ -9,9 +9,9 @@
 # You need to edit these values.
 
 DICT_NAME		=	"佛教哲學大辭典"
-DICT_SRC_PATH		=	MyDictionary.xml
-CSS_PATH		=	MyDictionary.css
-PLIST_PATH		=	MyInfo.plist
+DICT_SRC_PATH		=	SGIBuddhismDictionary.xml
+CSS_PATH		=	SGIBuddhismDictionary.css
+PLIST_PATH		=	Info.plist
 
 DICT_BUILD_OPTS		=
 # Suppress adding supplementary key.

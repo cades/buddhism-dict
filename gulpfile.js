@@ -9,7 +9,7 @@ gulp.task('crawl', shell.task([
 ]));
 
 gulp.task('copyXml', shell.task([
-  'cp gen/dict.xml "Dictionary Development Kit/project_templates/MyDictionary.xml"'
+  'cp gen/dict.xml "Dictionary Development Kit/project_templates/SGIBuddhismDictionary.xml"'
 ]));
 
 gulp.task('build', shell.task([
