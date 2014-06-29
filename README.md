@@ -1,8 +1,6 @@
 # 佛教哲學大辭典 for Mac
 
-[中文御書](http://cht.sgilibrary.org/index.php) crawler
-
-使用原網站「頁數檢索」的功能, 將 1716 頁的御書一頁一頁轉成 json 格式.
+使用[SGI御書檢索網](http://cht.sgilibrary.org/index.php)的資料產生 Mac 字典
 
 # 使用方式
 
