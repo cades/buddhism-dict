@@ -7,3 +7,7 @@ gen/*
 !gen/pages/
 !gen/pages/.gitkeep
 gen/pages/*
+
+jing-20091111/
+Dictionary\ Development\ Kit/project_templates/objects/
+Dictionary\ Development\ Kit/project_templates/MyDictionary.xml

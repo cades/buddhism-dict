@@ -1,5 +1,4 @@
-yushu-crawler
-=============
+# 佛教哲學大辭典 for Mac
 
 [中文御書](http://cht.sgilibrary.org/index.php) crawler
 
@@ -7,22 +6,35 @@ yushu-crawler
 
 # 使用方式
 
-請先確認有安裝[nodejs](http://nodejs.org/).
+請先確認有安裝[nodejs](http://nodejs.org/) 與 gulp.
 
 ```
+# install gulp globly (if not install yet)
+npm insatll -g gulp
+
+# install required packages
 npm install
-node crawler.js
+
+# 3-step generate dictionary
+gulp crawl
+gulp copyXml
+gulp build
 ```
 
-等到 script 跑完, 所有資料就會放在 pages/ 目錄下.
+# Commands
 
-# json 格式
+`gulp crawl`
+把檢索網的辭典內容爬下來, 並轉存成 Didtionary Development Kit 可用的 xml 檔
 
-```
-{
-  "page": <integer>,
-  "title": <string>,
-  "text": <string>
-}
-```
+`gulp copyXml`
+把轉好的 dict.xml 複製到 `Dictionary Development Kit/project_templates` 目錄下, 供 build 時使用
+
+`gulp build`
+清除快取、重新建置字典檔並安裝.
+
+`gulp install-xml-validator`
+下載 xml 驗證工具
+
+`gulp validate`
+驗證 xml 檔. 如正確無誤 task 會正常結束; 倘若有問題, task 會失敗.
 

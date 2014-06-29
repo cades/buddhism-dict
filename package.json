@@ -6,5 +6,9 @@
     "lazy.js": "*",
     "q": "*",
     "merge": "*"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.5",
+    "gulp-shell": "^0.2.7"
   }
 }

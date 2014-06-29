@@ -19,8 +19,8 @@ function downloadPage(pageNum) {
     fs.writeFile('./gen/pages/' + pageNum + '.json', JSON.stringify(pageJson), function(err){
       if (err)
         console.log("Page " + pageNum + " fails to write to file.");
-      else
-        console.log("Page " + pageNum + " downloaded.");
+      else if (pageNum === 1716)
+        console.log("1716 pages downloaded.");
     });
 
   });
@@ -28,4 +28,3 @@ function downloadPage(pageNum) {
 
 // 從第 1 頁抓到 1716 頁
 Lazy.range(1716).map(inc).toArray().map(downloadPage);
-
