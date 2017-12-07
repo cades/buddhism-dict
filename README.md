@@ -1,4 +1,6 @@
 # 佛教哲學大辭典 for Mac
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fcades%2Fbuddhism-dict.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fcades%2Fbuddhism-dict?ref=badge_shield)
+
 
 使用[SGI御書檢索網](http://cht.sgilibrary.org/index.php)的資料產生 Mac 字典. 最新的字典檔可從[這裡下載](https://dl.dropboxusercontent.com/u/23400714/%E4%BD%9B%E6%95%99%E5%93%B2%E5%AD%B8%E5%A4%A7%E8%BE%AD%E5%85%B8.dictionary.zip).
 
@@ -36,3 +38,7 @@ gulp build
 `gulp validate`  
 驗證 xml 檔. 如正確無誤 task 會正常結束; 倘若有問題, task 會失敗.
 
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fcades%2Fbuddhism-dict.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fcades%2Fbuddhism-dict?ref=badge_large)
